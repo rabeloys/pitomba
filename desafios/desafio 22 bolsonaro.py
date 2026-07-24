@@ -1,0 +1,11 @@
+nome = input('Digite seu nome: ')
+sobrenome = input('Digite seu sobrenome: ')
+nome_sobrenome = nome + ' ' + sobrenome
+nome_maisculo = nome_sobrenome.upper()
+nome_minusculo = nome_sobrenome.lower()
+nome_letras = len(nome)
+nomesobrenome_letras = (len(nome_sobrenome.replace(' ', '')))
+print(nome_maisculo)
+print(nome_minusculo)
+print(nomesobrenome_letras)
+print(nome_letras)

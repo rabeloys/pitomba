@@ -1,0 +1,13 @@
+numero = int(input('Digite um número inteiro: '))
+unidade = numero // 1 % 10
+dezena = numero // 10 % 10
+centena = numero // 100 % 10
+milhar = numero // 1000 % 10
+unidade_milhar = numero // 10000 % 10
+dezena_milhar = numero // 100000 % 10
+print(f'Unidade = {unidade}')
+print(f'Dezena = {dezena}')
+print(f'Centena = {centena}')
+print(f'Milhar = {milhar}')
+print(f'Unidade milhar = {unidade_milhar}')
+print(f'Dezena milhar = {dezena_milhar}')

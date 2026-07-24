@@ -1,0 +1,7 @@
+peso = float(input('Digite seu peso: '))
+altura = float(input('Digite sua altura (m): '))
+imc = peso / (pow(altura, 2))
+print()
+print(f'O seu peso é {peso}kg')
+print(f'A sua altura é {altura}m')
+print(f'Logo o seu IMC é round{imc:.2f}')
