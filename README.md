@@ -1,2 +1,2 @@
 # pitomba
-estou no começo do python
+estou aprendendo a mexer nisso
