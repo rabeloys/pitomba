@@ -10,3 +10,4 @@ for p in range(1, 6):
     if peso < menor:
         menor = peso
 print(f'O maior peso lido foi {maior}Kg e o menor peso lido foi {menor}Kg')
+#um dos mais dificies que ja fiz.
