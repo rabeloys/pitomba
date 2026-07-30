@@ -1,3 +1,4 @@
+#Primeiro com mais de 50 linhas :)
 mais_velho = 0
 mais_nova = 0
 mais_peso = 0
