@@ -20,16 +20,19 @@ if escolha_classe == 1:
     print(f'Vida total: \033[1;31m150\033[m')
     print(f'Multiplicador XP: \033[1;95m1.5\033[m')
     print(f'Multiplicador Moeda: \033[1;93m1\033[m')
+    time.sleep(2)
 elif escolha_classe == 2:
     print(f'{nome} você será um(a) \033[1;31mGuerreiro(a)\033[m')
     print(f'Vida total: \033[1;31m200\033[m')
     print(f'Multiplicador XP: \033[1;95m1\033[m')
     print(f'Multiplicador Moeda: \033[1;93m1.5\033[m')
+    time.sleep(2)
 elif escolha_classe == 3:
     print(f'{nome} você será um(a) \033[1;34mLadino(a)\033[m')
     print(f'Vida total: \033[1;31m175\033[m')
     print(f'Multiplicador XP: \033[1;95m1.1\033[m')
     print(f'Multiplicador Moeda: \033[1;93m2\033[m')
+    time.sleep(2)
 else:
     print('Classe ainda em desenvolvimento!')
     exit()
@@ -184,11 +187,11 @@ if xp == 0:
 elif 50 <= xp <= 199:
     print(f'Você terminou com \033[1;95m{xp}\033[m de XP! Você é \033[92mAventureiro\033[m')
 elif 200 <= xp <= 399:
-    print(f'Você terminou com \033[1;95m{xp}\033[m de XP! Você é \033[1;33Guerreiro da Luz\033[m')
+    print(f'Você terminou com \033[1;95m{xp}\033[m de XP! Você é \033[1;33mGuerreiro da Luz\033[m')
 elif 400 <= xp <= 599:
-    print(f'Você terminou com \033[1;95m{xp}\033[m de XP! Você é \033[1;33Supremo da Luz\033[m')
+    print(f'Você terminou com \033[1;95m{xp}\033[m de XP! Você é \033[1;33mSupremo da Luz\033[m')
 else:
-    print(f'Você terminou com \033[1;95m{xp}\033[m de XP! Você é \033[1;33Deus da Luz\033[m')
+    print(f'Você terminou com \033[1;95m{xp}\033[m de XP! Você é \033[1;33mDeus da Luz\033[m')
 if derrotas > vitorias:
     print(f'Você perdeu com \033[1;93m{moedas} moedas\033[m, \033[1;95m{xp} de XP\033[m, \033[1;91m{derrotas} derrotas\033[m e \033[1;32m{vitorias} vitorias\033[m')
 elif vitorias > derrotas:
