@@ -1,0 +1,31 @@
+import random
+classes = ['Guerreiro', 'Mago', 'Arqueiro', 'Assassino']
+racas = ['Humano', 'Elfo', 'Anão', 'Orc']
+nivel = random.randint(1, 20)
+vida = 100
+forca = 10 * random.randint(2, 7)
+agilidade = 25 * random.randint(2, 3)
+intelecto = 15 * random.randint(2, 4)
+nome = str(input('Digite o nome do seu personagem: ')).strip().capitalize()
+print('-' * 30)
+classe = int(input('Escolha a classe do seu personagem: \n[1] Guerreiro \n[2] Mago \n[3] Arqueiro \n[4] Assassino\n'))
+print('-' * 30)
+while classe < 1 or classe > 4:
+    print('Classe inválida! Tente novamente.')
+    classe = int(input('Escolha a classe do seu personagem: \n[1] Guerreiro \n[2] Mago \n[3] Arqueiro \n[4] Assassino\n'))
+print('-' * 30)
+raca = int(input('Escolha a raça do seu personagem: \n[1] Humano \n[2] Elfo \n[3] Anão \n[4] Orc\n'))
+print('-' * 30)
+while raca < 1 or raca > 4:
+    print('-' * 30)
+    print('Raça inválida! Tente novamente.')
+    raca = int(input('Escolha a raça do seu personagem: \n[1] Humano \n[2] Elfo \n[3] Anão \n[4] Orc\n'))
+    print('-' * 30)
+if nivel > 15:
+    vida *= 1.5
+print('-' * 30)
+print(f'\nNome: {nome}\nClasse: {classes[classe - 1]}\nRaça: {racas[raca - 1]}\nVida: {vida:.0f}')
+print()
+print(f'Força: {forca}\nIntelecto: {intelecto}\nAgilidade: {agilidade}')
+print('-' * 30)
+print('-' * 30)
