@@ -1,0 +1,5 @@
+tabela = ('Flamengo', 'Palmeiras', 'Atlético-MG', 'Corinthians', 'Fluminense', 'América-MG', 'Athletico-PR', 'Santos', 'São Paulo', 'Internacional', 'Botafogo', 'Ceará SC', 'Bragantino', 'Fortaleza', 'Goiás', 'Cuiabá', 'Coritiba', 'Avaí', 'Juventude', 'Atlético-GO')
+print(f'Tabela do Brasileirão 1568 (5 primeiros): {tabela[:5]}\n')
+print(f'Tabela do Brasileirão 1568 (4 últimos): {tabela[-4:]}\n')
+print(f'Tabela do Brasileirão 1568 (ordem alfabética): {sorted(tabela)}\n')
+print(f'O coxa está em {tabela.index("Coritiba")+1}° colocado\n')
